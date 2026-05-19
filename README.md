@@ -12,7 +12,7 @@ A two-state spin system in a magnetic field. The Fermi-Dirac distribution gives 
 
 Logistic regression nails the extrapolation, because the sigmoid *is* the Fermi-Dirac equation — its inductive bias and the physics happen to be the same. TabPFN refuses to extrapolate. More data doesn't fix it. The refusal turns out to be the right answer for a model that doesn't know it's looking at physics.
 
-[→ open notebook](./thermodynamics_with_tabpfn.ipynb)
+[→ open notebook](./Thermodynamics_with_TabPFN.ipynb)
 
 ---
 
@@ -22,7 +22,7 @@ Two Gaussian clouds in one dimension, with shared center and different widths. T
 
 TabPFN recovers the U. Logistic regression collapses to a flat 50%. The interesting part is on the log-scale entropy: TabPFN's confidence has a *floor* that scales cleanly with sample size. It's reluctant, ever so slightly, to be more certain than the training set has earned.
 
-[→ open notebook](./two_gaussians_with_tabpfn.ipynb)
+[→ open notebook](./Two_Gaussians_with_TabPFN.ipynb)
 
 ---
 
